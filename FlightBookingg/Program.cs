@@ -23,6 +23,11 @@
             Console.WriteLine($"{passenger1.Name}, {passenger1.BagCount} db poggyász, {passenger1.Age} éves és {passenger1.IsChild()} gyerek");
             Console.WriteLine($"{passenger2.Name}, {passenger2.BagCount} db poggyász, {passenger2.Age} éves és {passenger2.IsChild()} gyerek");
 
+           Flight flight = new Flight("asd", "asd", 11, 1);
+           Flight flight1 = new Flight("asd", "asd", 11, 1);
+
+            Console.WriteLine(flight.Describe());
+           //másik teszt
         }
     }
 }
